@@ -20,6 +20,7 @@
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->email }}</td>
                         <td>{{ $user->createdAt }}</td>
+                        <td></td>
                     </tr>
                 @empty
                     <tr>

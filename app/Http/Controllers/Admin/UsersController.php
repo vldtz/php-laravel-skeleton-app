@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests;
 use App\Services\UserService;
+use DebugBar\DebugBar;
 
 class UsersController extends Controller
 {

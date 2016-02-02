@@ -35,5 +35,8 @@ Route::group(['middleware' => 'web'], function () {
 
 	Route::get('/', 'Admin\DashboardController@index');
 	Route::get('/dashboard', 'Admin\DashboardController@index');
+	Route::get('/partners/create','Admin\PartnersController@create');
+	Route::post('partners','Admin\PartnersController@store');
 	Route::resource('/users','Admin\UsersController');
+	Route::resource('/partners','Admin\PartnersController');
 });

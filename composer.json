@@ -9,7 +9,8 @@
     "vlucas/phpdotenv" : "^2.2",
     "sofa/eloquence" : "~5.2.1",
     "barryvdh/laravel-debugbar": "^2.1",
-    "twbs/bootstrap": "^3.3"
+    "twbs/bootstrap": "^3.3",
+    "laravelcollective/html": "^5.2"
   },
   "require-dev" : {
     "fzaninotto/faker" : "~1.4",

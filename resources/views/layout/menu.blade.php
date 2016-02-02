@@ -12,7 +12,8 @@
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         @unless (Auth::guest())
-          <li><a href="/">Home</a></li>
+          <li><a href="/users">Users</a></li>
+          <li><a href="/partners">Partners</a></li>
         @endif
         
         {{-- <li><a href="{{ url('/home') }}">Contact</a></li> --}}
